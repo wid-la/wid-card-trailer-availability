@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 (function () {
   Polymer({
@@ -20,9 +20,8 @@
        * name
        * @type {String}
        */
-      code_name: {
-        type: String,
-        value: "CAN"
+      codeName: {
+        type: String
       },
 
       /**
@@ -38,8 +37,7 @@
        * @type {String}
        */
       reefer: {
-        type: String,
-        value: "34"
+        type: String
       },
 
       /**
@@ -51,8 +49,8 @@
       }
     },
 
-    _getBackgroundImage: function _getBackgroundImage(code_name) {
-      return 'background-image: url(../images/cards/' + code_name + 'Background.svg)';
+    _getBackgroundImage: function _getBackgroundImage(codeName) {
+      return 'background-image: url(/images/cards/' + codeName + 'Background.svg)';
     }
 
   });

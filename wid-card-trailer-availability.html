@@ -52,16 +52,16 @@ Example:
         background: #29B6F6;
         color:white;
         background-size: 100%;
-        background-position:-100px;
+        background-position:0px 100%;
         background-repeat: no-repeat;
-        font-size: 9vw;
-        font-family: roboto-light;
+        font-size: 5vw;
+        font-family: roboto-thin;
 
       }
 
 
       .value-container{
-        font-size: 10vw;
+        font-size: 5vw;
         font-family: roboto-light;
       }
 
@@ -87,7 +87,7 @@ Example:
           </div>
           <div class="logo-container layout horizontal center-center flex">
             
-            <iron-icon class="scale-icon flex" src="images/cards/truck.svg"></iron-icon>
+            <iron-icon class="scale-icon flex" src="/images/cards/truck.svg"></iron-icon>
           </div>
         </div>
         <div id="refer-container" class="flex layout vertical center-center">
@@ -96,13 +96,13 @@ Example:
           </div>
           <div class="logo-container layout horizontal center-center flex">
             
-            <iron-icon class="scale-icon flex" src="images/cards/refeer.svg"></iron-icon>
+            <iron-icon class="scale-icon flex" src="/images/cards/refeer.svg"></iron-icon>
           </div>
         </div>
 
       </div>
       <div id="name-container" style$="[[_getBackgroundImage(code_name)]]" class="layout horizontal flex center-center">
-        <span>[[code_name]]</span>
+        <span>[[name]]</span>
       </div>
 
     </paper-material>
