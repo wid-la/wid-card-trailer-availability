@@ -52,9 +52,9 @@ Example:
         background: #29B6F6;
         color:white;
         background-size: 100%;
-        background-position: 0px 100%;
+        background-position:0px 100%;
         background-repeat: no-repeat;
-        font-size: 4vw;
+        font-size: 5vw;
         font-family: roboto-thin;
 
       }
@@ -87,16 +87,16 @@ Example:
           </div>
           <div class="logo-container layout horizontal center-center flex">
             
-            <iron-icon class="scale-icon flex" src="images/cards/truck.svg"></iron-icon>
+            <iron-icon class="scale-icon flex" src="/images/cards/truck.svg"></iron-icon>
           </div>
         </div>
         <div id="refer-container" class="flex layout vertical center-center">
           <div class="value-container layout horizontal center-center flex">
-            <span>[[dry]]</span>
+            <span>[[reefer]]</span>
           </div>
           <div class="logo-container layout horizontal center-center flex">
             
-            <iron-icon class="scale-icon flex" src="images/cards/refeer.svg"></iron-icon>
+            <iron-icon class="scale-icon flex" src="/images/cards/refeer.svg"></iron-icon>
           </div>
         </div>
 
@@ -167,7 +167,7 @@ Example:
     },
 
     _getBackgroundImage: function(code_name) {
-      return 'background-image: url(../images/cards/' + code_name +'Background.svg)';
+      return 'background-image: url(/images/cards/' + code_name +'Background.svg)';
     },
 
 
