@@ -9,15 +9,15 @@
 
     properties: {
       /**
-       * Active
-       * @type {Boolean}
+       * name
+       * @type {String}
        */
       name: {
         type: String
       },
 
       /**
-       * name
+       * codeName
        * @type {String}
        */
       codeName: {
@@ -26,7 +26,7 @@
 
       /**
        * Status
-       * @type {Number}
+       * @type {String}
        */
       label: {
         type: String
@@ -41,7 +41,7 @@
       },
 
       /**
-       * Datetime
+       * dry
        * @type {String}
        */
       dry: {
