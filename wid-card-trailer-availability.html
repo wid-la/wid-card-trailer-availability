@@ -7,6 +7,7 @@
 
 <link rel="import" href="../wid-card-standard-behavior/wid-card-standard-behavior.html">
 <link rel="import" href="../wid-card-weight-behavior/wid-card-weight-behavior.html">
+<link rel="import" href="../wid-card-theme-behavior/wid-card-theme-behavior.html">
 <link rel="import" href="../wid-versatile-websocket/wid-versatile-websocket.html">
 <link rel="import" href="../wid-card-subscriptions-behavior/wid-card-subscriptions-behavior.html">
 
@@ -38,6 +39,7 @@ Example:
         height: 100%;
         font-family: roboto;
         color:#494949;
+        overflow: visible;
       }
 
       #truck-container{
@@ -79,7 +81,7 @@ Example:
     </div>
 
 
-    <paper-material class="layout vertical flex" elevation="3">
+    <paper-material id="mainContent" class="layout vertical flex" elevation="3">
       <div id="value-container" class="layout horizontal flex-2">
         <div id="truck-container" class="flex layout vertical center-center">
           <div class="value-container layout horizontal center-center flex">
