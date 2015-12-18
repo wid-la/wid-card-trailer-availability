@@ -33,10 +33,18 @@
       },
 
       /**
-       * User
+       * reefer
        * @type {String}
        */
       reefer: {
+        type: String
+      },
+
+      /**
+       * reefercont
+       * @type {String}
+       */
+      reefercont: {
         type: String
       },
 
@@ -45,6 +53,14 @@
        * @type {String}
        */
       dry: {
+        type: String
+      },
+
+      /**
+       * drycont
+       * @type {String}
+       */
+      drycont: {
         type: String
       }
     },
